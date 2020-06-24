@@ -19,7 +19,7 @@
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/resume.min.css" rel="stylesheet">
+  <link href="css/resume.css" rel="stylesheet">
 
 </head>
 
@@ -32,7 +32,8 @@
         <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt="">
       </span>
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -44,17 +45,16 @@
           <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#education">Education</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
-        </li>
+
+
       </ul>
     </div>
   </nav>
@@ -69,7 +69,11 @@
         <div class="subheading mb-5">Durham, NC
           <a href="mailto:name@email.com">guanhua.chen@duke.edu</a>
         </div>
-        <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews.</p>
+        <p class="lead mb-5">
+          I'm a full stack engineer experienced in Agile & test driven development(TDD).<br><br>
+          I'm dedicated in delivering apps with intuitive, pixel-perfect user interfaces. I'm also interested in
+          providing efficent, robust and hightly secure backend.
+        </p>
         <div class="social-icons">
           <a href="https://www.linkedin.com/in/guanhua-chen-49baa7199/">
             <i class="fab fa-linkedin-in"></i>
@@ -77,21 +81,40 @@
           <a href="https://github.com/charlieupupup">
             <i class="fab fa-github"></i>
           </a>
-          <a href="#">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#">
-            <i class="fab fa-facebook-f"></i>
-          </a>
+
         </div>
       </div>
     </section>
 
     <hr class="m-0">
-
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
         <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Kubernete contributor</h3>
+            <div class="subheading mb-3">Intelitec Solutions</div>
+            <p>
+              fixing the issue i can deal with
+
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">March 2020 - Present</span>
+          </div>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
@@ -155,6 +178,8 @@
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
             <i class="fab fa-html5"></i>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            1<sup>st</sup>
           </li>
           <li class="list-inline-item">
             <i class="fab fa-css3-alt"></i>
@@ -191,51 +216,26 @@
           </li>
         </ul>
 
+        <div class="subheading mb-3">Languages</div>
+        <div class="subheading mb-3">Framework</div>
+        <div class="subheading mb-3">Tools</div>
+
         <div class="subheading mb-3">Workflow</div>
         <ul class="fa-ul mb-0">
           <li>
             <i class="fa-li fa fa-check"></i>
             Mobile-First, Responsive Design</li>
+
           <li>
             <i class="fa-li fa fa-check"></i>
-            Cross Browser Testing &amp; Debugging</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Cross Functional Teams</li>
-          <li>
-            <i class="fa-li fa fa-check"></i>
-            Agile Development &amp; Scrum</li>
+            React-Redux, JWT Auth0, Heroku, Flask Dart Flutter Django Spring Springboot Bootstrap &amp; Scrum</li>
         </ul>
       </div>
     </section>
 
     <hr class="m-0">
 
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
-      <div class="w-100">
-        <h2 class="mb-5">Interests</h2>
-        <p>Apart from being a web developer, I enjoy most of my time being outdoors.</p>
-        <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows.</p>
-      </div>
-    </section>
 
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Awards &amp; Certifications</h2>
-        <ul class="fa-ul mb-0">
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            Google Analytics Certified Developer</li>
-
-          <li>
-            <i class="fa-li fa fa-trophy text-warning"></i>
-            3<sup>rd</sup>
-            Place - Duke - Hackathon 2019</li>
-        </ul>
-      </div>
-    </section>
 
   </div>
 
