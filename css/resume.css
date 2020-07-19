@@ -185,3 +185,8 @@ mark {
   background-color: black;
   color: greenyellow;
 }
+
+.proj::after{
+  content: "\a\a\a\a";
+  white-space: pre;
+}
